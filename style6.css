@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/nier-automata-yorha-2b-9s-a2-x46.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  width: 920px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgba(109, 75, 75, 0.719);
+  margin: 80px auto;
+  color: rgb(255, 255, 255);
+}
+
+.instagram {
+  background-image: url(img/instagram.png);
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10px;
+}
+
+.judul {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 40px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 0 2px 1px black;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 23px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+  transition: 0.3s;
+}
+
+.header a:hover {
+  border-bottom: 2px solid white;
+  color: rgb(103, 242, 247);
+}
+
+.image {
+  background-image: url(img/nier2B_faceeyes.jpg);
+  width: 920px;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-size: cover;
+  font-size: 40px;
+  text-align: center;
+  line-height: 320px;
+  border-top: 5px solid silver;
+  border-bottom: 5px solid rgb(44, 44, 44);
+}
+
+.main {
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.main h2 {
+  font-size: 30px;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.main,
+.penulis {
+  margin-top: 3px;
+  font-family: serif;
+  font-size: 16px;
+}
+
+.main a {
+  text-decoration: none;
+  color: white;
+}
+
+.main a:hover {
+  color: blue;
+}
+
+.main,
+.isi {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.copyright {
+  background-color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: white;
+}
+
+.copyright a:hover {
+  color: blue;
+}
+
+.sidebar {
+  width: 300px;
+  float: right;
+  padding-top: 30px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar h3 {
+  font-size: 22px;
+  padding-bottom: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+img {
+  float: left;
+  padding-right: 10px;
+}
+
+.sidebar p {
+  font: 17px/18px serif;
+  line-height: -5px;
+  text-align: justify;
+  color: white;
+}
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 412px;
+  }
+  .instagram {
+    width: 450%;
+  }
+  .judul {
+    font-size: 50px;
+    padding-top: 50px;
+  }
+  .image {
+    width: 412px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .main {
+    width: 412px;
+  }
+  .sidebar {
+    width: 412px;
+    padding-left: 20px;
+  }
+
+  .sidebar img {
+    float: none;
+    width: 50%;
+  }
+
+  .sidebar p {
+    padding-top: 5px;
+  }
+}

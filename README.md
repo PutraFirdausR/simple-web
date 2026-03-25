@@ -1,40 +1,41 @@
 # 🌐 Simple Web Layout
 
-Selamat datang di repositori **Simple Web**!  
-Proyek ini adalah eksperimen pembuatan halaman web sederhana yang murni berfokus pada struktur dokumen (*markup*) dan desain visual (*styling*). Tidak ada logika interaktif di sini, murni eksplorasi untuk mengasah keterampilan desain *Front-End* dasar.
+Welcome to the **Simple Web** repository!
+This project is an experiment in creating a simple web page focused purely on document structure (*markup*) and visual design (*styling*). There is no interactive logic here, purely an exploration to hone basic *Front-End* design skills.
 
-## 🎨 Tujuan Proyek
-- Mempraktikkan penyusunan *layout* halaman menggunakan HTML5.
-- Berlatih mengimplementasikan *styling*, warna, dan tipografi menggunakan CSS3.
-- Mengatur penempatan elemen pendukung seperti gambar.
+## 🎨 Project Goals
+- Practice composing page layouts using HTML5.
+- Practice implementing *styling*, color, and typography using CSS3.
+- Arrange the placement of supporting elements such as images.
 
-## 🛠️ Teknologi yang Digunakan
-- **HTML5:** Digunakan pada file `index6.html` untuk membangun struktur *semantic* halaman.
-- **CSS3:** Digunakan pada file `style6.css` untuk mempercantik tampilan dan mengatur *layout*.
+## 🛠️ Technologies Used
+- HTML5: Used in the `index6.html` file to build the *semantic* structure of the page.
+- CSS3: Used in the `style6.css` file to enhance the appearance and organize the *layout*.
 
-## 📂 Struktur Folder
+## 📂 Folder Structure
 ```text
 simple-web/
-├── img/                # Direktori penyimpanan aset gambar
-├── index6.html         # Dokumen HTML utama
-├── style6.css          # File stylesheet untuk mendesain halaman
-└── README.md           # Dokumentasi proyek (file ini)
+├── img/ # Image asset storage directory
+├── index6.html # Main HTML document
+├── style6.css # Stylesheet file for designing the page
+└── README.md # Project documentation (this file)
 ```
 
-## 💻 Cara Melihat Hasilnya
-Untuk melihat hasil desain web ini, kamu cukup menjalankannya secara lokal:
+## 💻 How to View the Results
+To view the results of this web design, simply run it locally:
 
-1. Clone repositori ini:
+1. **Clone this repository:**
 
 ```Bash
 git clone [https://github.com/PutraFirdausR/simple-web.git](https://github.com/PutraFirdausR/simple-web.git)
 ```
 
-2. Masuk ke folder proyek:
+2. **Enter the project folder:**
 
 ```Bash
 cd simple-web
 ```
 
-3. Buka di Browser:
-Cari file bernama index6.html di dalam folder, lalu klik dua kali untuk membukanya di browser (seperti Chrome, Safari, atau Firefox).
+3. **Open in Browser:**
+
+Find the file named index6.html in the folder, then double-click to open it in a browser (such as Chrome, Safari, or Firefox).

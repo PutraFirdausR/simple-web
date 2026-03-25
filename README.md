@@ -37,5 +37,4 @@ cd simple-web
 ```
 
 3. **Open in Browser:**
-
-Find the file named index6.html in the folder, then double-click to open it in a browser (such as Chrome, Safari, or Firefox).
+   Find the file named index6.html in the folder, then double-click to open it in a browser (such as Chrome, Safari, or Firefox).

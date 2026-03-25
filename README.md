@@ -1,56 +1,40 @@
-<div align="center">
-  <h1>📝 To-Do List App</h1>
-  <p>Aplikasi manajemen tugas yang simpel, interaktif, dan efisien untuk membantu meningkatkan produktivitas harianmu.</p>
+# 🌐 Simple Web Layout
 
-  <p>
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-    </p>
+Selamat datang di repositori **Simple Web**!  
+Proyek ini adalah eksperimen pembuatan halaman web sederhana yang murni berfokus pada struktur dokumen (*markup*) dan desain visual (*styling*). Tidak ada logika interaktif di sini, murni eksplorasi untuk mengasah keterampilan desain *Front-End* dasar.
 
-  <p>
-    <a href="https://github.com/PutraFirdausR/to-do-list/stargazers">
-      <img src="https://img.shields.io/github/stars/PutraFirdausR/to-do-list?style=social" alt="Stars" />
-    </a>
-    <a href="https://github.com/PutraFirdausR/to-do-list/network/members">
-      <img src="https://img.shields.io/github/forks/PutraFirdausR/to-do-list?style=social" alt="Forks" />
-    </a>
-  </p>
-</div>
+## 🎨 Tujuan Proyek
+- Mempraktikkan penyusunan *layout* halaman menggunakan HTML5.
+- Berlatih mengimplementasikan *styling*, warna, dan tipografi menggunakan CSS3.
+- Mengatur penempatan elemen pendukung seperti gambar.
 
----
+## 🛠️ Teknologi yang Digunakan
+- **HTML5:** Digunakan pada file `index6.html` untuk membangun struktur *semantic* halaman.
+- **CSS3:** Digunakan pada file `style6.css` untuk mempercantik tampilan dan mengatur *layout*.
 
-## 💡 Tentang Proyek
+## 📂 Struktur Folder
+```text
+simple-web/
+├── img/                # Direktori penyimpanan aset gambar
+├── index6.html         # Dokumen HTML utama
+├── style6.css          # File stylesheet untuk mendesain halaman
+└── README.md           # Dokumentasi proyek (file ini)
+```
 
-**To-Do List App** dirancang untuk menjadi asisten digital pribadimu dalam mencatat, melacak, dan menyelesaikan tugas-tugas harian. Proyek ini tidak hanya sekadar daftar tugas biasa, tetapi juga mendemonstrasikan pemahaman kuat tentang manipulasi DOM, penanganan *event* (Event Handling), dan pengelolaan data lokal.
+## 💻 Cara Melihat Hasilnya
+Untuk melihat hasil desain web ini, kamu cukup menjalankannya secara lokal:
 
-## ✨ Fitur Unggulan
+1. Clone repositori ini:
 
-- ➕ **Tambah Tugas Baru:** Catat ide atau tugasmu dengan cepat.
-- ✔️ **Tandai Selesai:** Beri tanda coret (*strikethrough*) pada tugas yang sudah rampung.
-- 🗑️ **Hapus Tugas:** Bersihkan daftar tugas dari hal-hal yang tidak lagi diperlukan.
-- 💾 **Penyimpanan Lokal (Local Storage):** Tugas yang sudah kamu buat tidak akan hilang meskipun halaman *browser* di-*refresh* atau ditutup. *(Hapus poin ini jika kamu tidak menggunakan Local Storage)*
-- 📱 **Desain Responsif:** Antarmuka yang rapi dan nyaman digunakan di *smartphone*, *tablet*, maupun *desktop*.
+```Bash
+git clone [https://github.com/PutraFirdausR/simple-web.git](https://github.com/PutraFirdausR/simple-web.git)
+```
 
-## 🛠️ Stack Teknologi yang Digunakan
+2. Masuk ke folder proyek:
 
-| Kategori | Teknologi |
-| :--- | :--- |
-| **Struktur & Konten** | HTML5 |
-| **Gaya & Layout** | CSS3 (Flexbox/Grid) / Tailwind CSS *(Pilih salah satu)* |
-| **Logika & Interaktivitas** | Vanilla JavaScript (ES6+) |
-| **Penyimpanan Data** | Web Storage API (Local Storage) |
+```Bash
+cd simple-web
+```
 
-## 📸 *Screenshot* Aplikasi
-
-> *Tambahkan tautan gambar screenshot aplikasimu di sini agar pengunjung tahu bentuk aplikasinya!*
-
-![Preview To-Do List App](https://via.placeholder.com/800x400.png?text=Screenshot+To-Do+List+App)
-
-## 🚀 Cara Menjalankan Secara Lokal
-
-Ingin mencoba aplikasi ini di komputermu sendiri? Langkah-langkahnya sangat mudah:
-
-1. **Clone repositori ini:**
-   ```bash
-   git clone [https://github.com/PutraFirdausR/to-do-list.git](https://github.com/PutraFirdausR/to-do-list.git)
+3. Buka di Browser:
+Cari file bernama index6.html di dalam folder, lalu klik dua kali untuk membukanya di browser (seperti Chrome, Safari, atau Firefox).
